@@ -67,36 +67,37 @@ export const artworks = [
     image: "/10.jpeg",
     title: "Black and White",
     category: "insta-stories",
-    stanza: "Long before the gold took flight, You traced these curves in black and white. A hand so free, a mind so vast, Building a bridge from the silent past."
+    stanza:"A messy palette, a heart set free, The artist returns to who she's meant to be. Those three simple words, 'I'm back,' you said, With a world of color and dreams ahead."
   },
   {
     id: 11,
     image: "/11.png",
     title: "I'm Back",
     category: "insta-stories",
-    stanza: "A messy palette, a heart set free, The artist returns to who she's meant to be. Those three simple words, 'I'm back,' you said, With a world of color and dreams ahead."
+    stanza: "A palette refreshed and brushes aligned, Leaving the years of the silence behind. On International Artist Day, your journey is new, A birthday gift that is perfectly you."
   },
   {
     id: 12,
     image: "/12.png",
     title: "New Journey",
     category: "insta-dp",
-    stanza: "A palette refreshed and brushes aligned, Leaving the years of the silence behind. On International Artist Day, your journey is new, A birthday gift that is perfectly you."
+    stanza:  "A palette of dreams and a name now known, In the garden of art, your seeds have been sown. From the first free-hand sketch to the gold on the wall, You answered the creative and spiritual call."
+ 
   },
   {
     id: 13,
     image: "/13.png",
     title: "The Garden",
     category: "insta-dp",
-    stanza: "A palette of dreams and a name now known, In the garden of art, your seeds have been sown. From the first free-hand sketch to the gold on the wall, You answered the creative and spiritual call."
-  },
+    stanza: "Pencils and brushes and shavings of lead, With a world of new colors waiting ahead. You've turned your passion into a beautiful name, Reigniting the spark and the artist's flame. May your year be as bright as the work that you do."
+    },
   {
     id: 14,
     image: "/10.1.jpeg",
     title: "The Spark",
     category: "freehands",
-    stanza: "Pencils and brushes and shavings of lead, With a world of new colors waiting ahead. You've turned your passion into a beautiful name, Reigniting the spark and the artist's flame. May your year be as bright as the work that you do."
-  }
+    stanza:  "Long before the gold took flight, You traced these curves in black and white. A hand so free, a mind so vast, Building a bridge from the silent past."
+   }
 ];
 
 export const sections = [
