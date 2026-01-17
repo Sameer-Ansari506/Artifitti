@@ -123,6 +123,35 @@ const VideoPage = ({ onComplete }) => {
           />
         </motion.div>
 
+        {/* Birthday message at bottom */}
+        <motion.div
+          className="absolute bottom-8 md:bottom-12 left-0 right-0 z-20 text-center px-4"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+        >
+          <motion.h2
+            className="text-3xl md:text-5xl lg:text-6xl font-serif font-bold"
+            animate={{
+              textShadow: [
+                '0 0 20px rgba(255, 110, 199, 0.6)',
+                '0 0 30px rgba(168, 85, 247, 0.6)',
+                '0 0 20px rgba(20, 184, 166, 0.6)',
+                '0 0 20px rgba(255, 110, 199, 0.6)',
+              ],
+            }}
+            transition={{
+              duration: 3,
+              repeat: Infinity,
+              ease: 'easeInOut',
+            }}
+          >
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-neon-pink via-neon-purple via-neon-teal to-neon-pink">
+              Happy Birthday Neha ✨
+            </span>
+          </motion.h2>
+        </motion.div>
+
         {/* Close button (optional - in case user wants to skip) */}
         <motion.button
           onClick={onComplete}
