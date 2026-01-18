@@ -65,14 +65,14 @@ export const artworks = [
   {
     id: 10,
     image: "/10.jpeg",
-    title: "Black and White",
+    title: "I'm Back",
     category: "insta-stories",
     stanza:"A messy palette, a heart set free, The artist returns to who she's meant to be. Those three simple words, 'I'm back,' you said, With a world of color and dreams ahead."
   },
   {
     id: 11,
     image: "/11.png",
-    title: "I'm Back",
+    title: "Artist Day",
     category: "insta-stories",
     stanza: "A palette refreshed and brushes aligned, Leaving the years of the silence behind. On International Artist Day, your journey is new, A birthday gift that is perfectly you."
   },
